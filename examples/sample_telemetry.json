@@ -1,0 +1,11 @@
+{
+  "device_id": "demo-coco-001",
+  "mode": "demo",
+  "connection": "simulated",
+  "motion_state": "stationary",
+  "battery_percent": 82,
+  "board_temperature_c": 36.4,
+  "signal_quality_percent": 91,
+  "loop_rate_hz": 20,
+  "sample_age_seconds": 2
+}

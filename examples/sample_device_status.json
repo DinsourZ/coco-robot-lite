@@ -1,0 +1,20 @@
+{
+  "device_id": "demo-coco-001",
+  "mode": "demo",
+  "connection": "simulated",
+  "overall": "ready_for_demo",
+  "components": [
+    {
+      "name": "ESP32-S3 concept board",
+      "status": "simulated_ok"
+    },
+    {
+      "name": "I2C learning bus",
+      "status": "simulated_ok"
+    },
+    {
+      "name": "Motion output",
+      "status": "disabled"
+    }
+  ]
+}
