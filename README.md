@@ -100,6 +100,16 @@ Each example folder has its own README with wiring assumptions and guardrails. C
 
 Start with `safe_motion_placeholder`, continue with the I2C scanner, and use the servo demo only on a supervised, low-energy bench setup.
 
+## How Codex and GPT-5.6 Were Used
+
+Codex was used as an engineering assistant to generate the public demo repository structure, create the React/TypeScript web demo, prepare educational firmware examples, write documentation, run local checks, scan for sensitive information, initialize a clean Git repository, and push the public demo to GitHub.
+
+GPT-5.6 was used for project planning, Devpost positioning, public/private boundary design, README/story drafting, and deciding how to present the project without exposing private production internals.
+
+This project used multiple AI-assisted conversations during planning and refinement. For the Devpost /feedback field, the representative Codex session is the one where the majority of the public demo repository was generated, sanitized, committed, and pushed.
+
+See [docs/ai_build_log.md](docs/ai_build_log.md) for a transparent breakdown of the AI-assisted workflow.
+
 ## Hackathon submission notes
 
 - The web dashboard is the recommended live demo because it is deterministic and hardware-independent.
